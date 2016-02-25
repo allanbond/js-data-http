@@ -34,7 +34,6 @@
     "ci": "npm test && cat ./coverage/PhantomJS*/lcov.info | coveralls || true && cat ./coverage/PhantomJS*/lcov.info | codacy-coverage || true"
   },
   "devDependencies": {
-    "axios": "0.9.1",
     "babel-core": "6.5.2",
     "babel-eslint": "5.0.0",
     "babel-loader": "6.2.3",
@@ -62,6 +61,7 @@
     "webpack": "1.12.14"
   },
   "dependencies": {
-    "js-data": ">=2.0.0 <3"
+    "js-data": ">=2.0.0 <3",
+    "axios": "0.9.1"
   }
 }
